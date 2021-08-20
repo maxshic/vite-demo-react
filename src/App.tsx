@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React, { useState, FC } from 'react'
 import logo from '@/logo.svg'
 import '@/App.css'
 
+import 'antd/dist/antd.less'
 
-const App = () => {
+const App: FC = () => {
   
   const [count, setCount] = useState(0)
 
